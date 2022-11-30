@@ -1,5 +1,5 @@
 body {
-    
+
     background-color: #007aff;
 }
 
@@ -9,10 +9,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 
 .mainImg {
-    width: 420px ;
+    width: 420px;
     height: 220px;
 }
 
@@ -27,3 +27,14 @@ quiz-card {
     border-top: 1px solid rgba(0, 0, 0, 0.4);
     padding-top: 12px;
 }
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-success, .bg-danger {
+    color: white;
+}
+
+
